@@ -1,10 +1,22 @@
 import { Menu, X } from "lucide-react";
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 
 
 function Navbar() {
     const [isOpen, setIsOpen]=useState(false);
+    useEffect(()=>{
+        const handleResize=()=>{
+            if(window.innerWidth >500){
+                setIsOpen(false)
+            }
+        }
+        window.addEventListener("resize", handleResize);
+        return ()=>{
+            window.removeEventListener("resize", handleResize);
+        }
+
+    },[])
     const links: {id: number, link: string, name:string}[]= [
         {
         id:1,
@@ -61,7 +73,7 @@ function Navbar() {
    
     {links.map((y)=>{
         return (
-            <Link className="hover:text-blue-600 transition-colors duration-300" to={y.link} key={y.id}>
+            <Link className="hover:text-blue-600 md:text-sm transition-colors duration-300" to={y.link} key={y.id}>
             {y.name}
             </Link>
         )
