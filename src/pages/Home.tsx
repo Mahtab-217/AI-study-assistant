@@ -1,5 +1,6 @@
 
 import Hero from "../components/shared/home/Hero"
+import MainSextion from "../components/shared/home/MainSextion"
 import Navbar from "../components/shared/home/Navbar"
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
     
         <Navbar/>
         <Hero/>
+        <MainSextion/>
     </div>
   )
 }
