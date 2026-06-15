@@ -2,11 +2,11 @@ import { ChartColumn, Link, ShoppingBag } from "lucide-react"
 
 function MainSextion() {
   return (
-    <div className="w-full bg-gray-100">
+    <div className="w-full bg-gray-100 py-8">
         <div className="w-full max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-5  gap-8">
-            <div className="lg:col-span-2"> 
-                <span className="uppercase text-gray-400">MADE for creators</span>
-                <p className="text-balance font-bold ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, suscipit. Pariatur alias ipsum eum blanditiis quod enim mollitia corrupti eos id fuga placeat ut molestias aperiam, corporis dolorem ipsa dicta?</p>
+            <div className="lg:col-span-2 flex flex-col justify-start space-y-4"> 
+                <span className="uppercase text-gray-500">MADE for creators</span>
+                <p className="text-3xl font-black "> suscipit. Pariatur alias ipsum eum blanditiis quod enim mollitia corrupti eos id fuga placeat ut molestias aperiam, corporis dolorem ipsa dicta?</p>
             </div>
             {/* Cards */}
             <div className="grid md:grid-cols-3 lg:col-span-3   gap-8">
