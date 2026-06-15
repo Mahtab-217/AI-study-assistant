@@ -36,8 +36,8 @@ function Navbar() {
     ]
   return (
 
-    <div>
-   <nav className={`py-3 px-4 w-full  max-w-7xl mx-auto flex ${isOpen? "bg-primary/60 top-0 rounded-none": "bg-primary top-1.5 rounded-full"} rounded-full top-1.5 left-1/2 -translate-x-1/2 fixed justify-between items-center `}>
+    <div className="">
+   <nav className={`py-3 px-4 w-full  max-w-7xl mx-auto flex ${isOpen? "bg-primary/60 top-0 rounded-none": "bg-primary top-1.5 rounded-full"} px-4 rounded-full top-1.5 left-1/2 -translate-x-1/2 fixed justify-between items-center `}>
     <div className="flex space-x-1.5 items-center">
         <img src="./images/logo.png" className="w-8 h-8"  />
         <span className="text-md font-inter hidden md:inline">Study Assistant</span>

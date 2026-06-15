@@ -2,12 +2,12 @@
 
 function Hero() {
   return (
-    <div className="mx-w-6xl bg-brand w-full grid min-h-screen h-screen">
+    <div className="mx-w-6xl px-4 bg-brand w-full grid min-h-screen h-screen">
       <div className="max-w-7xl mx-auto grid  md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-3">
         <div className="lg:col-span-2  ">
-          <div className="flex flex-col items-center h-screen  justify-end ">
-            <h1 className="font-bold text-9xl">Build your website in 2 minutes</h1>
-            <span  className="font-bold text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eum itaque quidem enim, aliquam placeat omnis nesciunt laborum deleniti saepe est neque voluptate, mollitia sapiente rem dolor facere natus possimus?</span>
+          <div className="flex flex-col items-center h-screen gap-8 justify-center pt-8 ">
+            <h1 className="font-bold text-8xl  text-green-950">Build your website in 2 minutes.</h1>
+            <span  className="font-bold text-sm  text-green-900">Lorem ipsum dolor sit amet consectetur, adipisicing eliteat omnis nesciunt laborum deleniti saepe est neque voluptate, mollitia sapiente rem dolor facere natus possimus?</span>
             <div className="justify-between flex ">
               <input type="text" />
             </div>
@@ -26,20 +26,20 @@ function Hero() {
 
                <div className="flex justify-between   items-center p-2 ">
                 <div className="bg-white w-11/12 items-center flex justify-between  p-2  mx-auto h-fit">
-                <p>Book on whatsApp</p>
-                <p>/</p>
+                <p className="font-bold font-inter text-green-950">Book on whatsApp</p>
+                <p className="font-bold font-inter text-green-950">/</p>
                 </div>
                </div>
                <div className="flex justify-between  w-full h-fit  items-center p-2 ">
                 <div className="bg-white w-11/12 items-center flex justify-between  p-2  mx-auto h-fit">
-                <p>Book on whatsApp</p>
-                <p>/</p>
+                <p className="font-bold font-inter text-green-950"> Book on whatsApp</p>
+                <p className="font-bold font-inter text-green-950">/</p>
                 </div>
                </div>
                <div className="flex justify-between   items-center p-2 ">
                 <div className="bg-white w-11/12 items-center flex justify-between  p-2  mx-auto h-fit">
-                <p>Book on whatsApp</p>
-                <p>/</p>
+                <p className="font-bold font-inter text-green-950">Book on whatsApp</p>
+                <p className="font-bold font-inter text-green-950">/</p>
                 </div>
                </div>
           </div>
