@@ -14,6 +14,7 @@ function MainSextion() {
                 <div className="bg-brand p-3 w-fit">
                     <Link size={24}/>
                     </div>
+                    
                     <div className="flex flex-col space-y-4">
                         <p className="text-xl text-green-900 ">All your links</p>
                         <p className="text-sm "> Suscipit accusamus, quos neque at praesentium sequi veniam quasi dolorum ratione ad iure iusto blanditiis expedita autem hic? Ullam, quae! Aut, hic!</p>

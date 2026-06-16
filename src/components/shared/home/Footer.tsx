@@ -17,15 +17,15 @@ function Footer() {
         </div>
         </div>
         {/* icons for sicial media */}
-        <div className="grid grid-cols-3 w-full h-full   items-center justify-center">
-          <div className="flex items-center gap-3 justify-center">
-            <div className="flex justify-between items-center text-gray-600 border border-gray-300 bg-white py-3 rounded-sm px-3">
+        <div className="flex w-full gap-3 h-fit  items-center justify-between mx-auto">
+          <div className=" flex items-center gap-3 w-full  ">
+            <div className=" text-gray-600 border border-gray-300 bg-white py-3 rounded-sm px-3">
            <Phone size={18} className=""/>
            </div>
-            <div className="flex justify-between items-center text-gray-600 border border-gray-300 bg-white py-3 rounded-sm px-3">
+            <div className="  text-gray-600 border border-gray-300 bg-white py-3 rounded-sm px-3">
            <PhoneCall size={18} className=""/>
            </div>
-            <div className="flex justify-between items-center text-gray-600 border border-gray-300 bg-white py-3 rounded-sm px-3">
+            <div className="  text-gray-600 border border-gray-300 bg-white py-3 rounded-sm px-3">
            <Camera size={18} className=""/>
            </div>
           </div>

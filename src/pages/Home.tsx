@@ -1,4 +1,5 @@
 
+import ActionStateEx from "../ActionStateEx"
 import Footer from "../components/shared/home/Footer"
 import Hero from "../components/shared/home/Hero"
 import MainSextion from "../components/shared/home/MainSextion"
@@ -9,11 +10,12 @@ function Home() {
   return (
     <div className=" font-serif "> 
     
-        <Navbar/>
+        {/* <Navbar/>
         <Hero/>
         <MainSextion/>
         <Section/>
-        <Footer/>
+        <Footer/> */}
+        <ActionStateEx/>
     </div>
   )
 }
