@@ -6,11 +6,11 @@ function MainSextion() {
         <div className="w-full max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-5  gap-8">
             <div className="lg:col-span-2 flex flex-col justify-start space-y-4"> 
                 <span className="uppercase text-green-950/75 font-bold ">MADE for creators</span>
-                <p className="text-4xl font-black  text-green-950">  quod enim mollitia corrupti eos id fuga placeat ut molestias aperiam, corporis dolorem ipsa dicta?</p>
+                <p className="text-4xl font-black  text-green-950">  quod enimd fuga placeat ut molestias aperiam, corporis dolorem ipsa dicta?</p>
             </div>
             {/* Cards */}
             <div className="grid md:grid-cols-3 lg:col-span-3   gap-8">
-                <div className="border border-green-900/90 p-4 ">
+                <div className="border border-green-900/30 p-4 ">
                 <div className="bg-brand p-3 w-fit">
                     <Link size={24}/>
                     </div>
@@ -20,7 +20,7 @@ function MainSextion() {
                     </div>
                 
                 </div>
-                <div className="border border-green-900/90 p-4 ">
+                <div className="border border-green-900/30 p-4 ">
                 <div className="bg-brand p-3 w-fit">
                     <ShoppingBag size={24}/>
                      </div>
@@ -30,7 +30,7 @@ function MainSextion() {
                     </div>
                
                 </div>
-                <div className="border border-green-900/90 p-4 ">
+                <div className="border border-green-900/30 p-4 ">
                 <div className="bg-brand p-3 w-fit">
                     <ChartColumn size={24}/>
                       </div>
